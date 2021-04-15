@@ -113,7 +113,8 @@
             xrButton.innerHTML = 'Enter AR';
             xrButton.addEventListener('click', onButtonClicked);
           } else {
-            xrButton.innerHTML = 'AR not found';
+            xrButton.innerHTML = 'Enter AR';
+            xrButton.addEventListener('click', onButtonClicked);
           }
           xrButton.disabled = !supported;
         });
